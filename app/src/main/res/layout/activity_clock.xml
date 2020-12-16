@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_Clock"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Clock"
+    android:background = "@drawable/background">
+
+
+    <TextView
+        android:id="@+id/Gre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:layout_marginTop = "30dp"
+        android:layout_gravity="center"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="60dp" />
+
+    <Button
+        android:id="@+id/back_btn2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="390dp"
+        android:text="Main" />
+
+
+</LinearLayout>
